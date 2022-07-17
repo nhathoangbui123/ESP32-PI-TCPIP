@@ -22,6 +22,16 @@ static const char *TAG = "MAIN";
 
 static const char *payload = "Hello Server from Client";
 
+void button_task(void *arg){
+    while (1) {
+
+    }
+}
+void relay_task(void *arg){
+    while (1) {
+        
+    }
+}
 void socket_task(void *arg){
     char rx_buffer[128];
     char host_ip[] = HOST_IP_ADDR;
